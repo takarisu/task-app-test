@@ -14,7 +14,7 @@ services:
     environment:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: postgres
-      POSTGRES_DB: nn_chat
+      POSTGRES_DB: task_app_test
       TZ: "Asia/Tokyo"
     volumes:
       - ../nn-chat-db:/var/lib/postgresql/data
